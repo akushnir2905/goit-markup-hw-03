@@ -205,6 +205,10 @@ border-radius: 4px;
 
 /*Principles*/
 
+.principles{
+  padding: 120px 0;
+}
+
 .principles .list{
   display: flex;
   gap: 24px;
@@ -215,6 +219,10 @@ border-radius: 4px;
 
 .principles .text{
   width: 264px;
+}
+
+.principles .third-header{
+  margin-bottom: 8px;
 }
 
 .third-header{
@@ -343,9 +351,7 @@ padding: 12px 24px;
  
 }
 
-/*.portfolio-list li{
-  flex-basis: 25%;
-}*/
+
 
 .caption{
   border: 1px solid var(--cornflower);
