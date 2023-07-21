@@ -343,15 +343,15 @@ padding: 12px 24px;
  
 }
 
-.portfolio-list li{
+/*.portfolio-list li{
   flex-basis: 25%;
-}
+}*/
 
 .caption{
   border: 1px solid var(--cornflower);
   border-top: none; 
   padding: 32px 16px;
-  margin-bottom: 8px;
+ 
 }
 
  .portfolio-list p,
@@ -359,6 +359,10 @@ padding: 12px 24px;
   padding-left: 16px;
   
   
+ }
+
+ .portfolio-list h2{
+  margin-bottom: 8px;
  }
 
 /*Footer*/
