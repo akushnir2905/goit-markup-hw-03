@@ -83,7 +83,6 @@ background: var(--white, #FFF);
 }
 
 .header-logo{
-
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -97,12 +96,15 @@ background: var(--white, #FFF);
   color: var(--cloud);
 }
 
-nav{
+.navigation{
   display: flex;
+  align-items: center;
+  margin-right: 76px;
 }
 nav .header-menu{
   display: flex;
   gap: 40px;
+  
 }
 
 .header-menu-link{
