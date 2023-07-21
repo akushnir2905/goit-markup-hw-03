@@ -89,7 +89,8 @@ background: var(--white, #FFF);
   line-height: 1.17; 
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris)
+  color: var(--iris);
+  margin-right: 76px;
 }
 
 .studio{
@@ -100,10 +101,12 @@ background: var(--white, #FFF);
   display: flex;
   align-items: center;
   margin-right: 76px;
+ 
 }
 nav .header-menu{
   display: flex;
   gap: 40px;
+  
   
 }
 
@@ -113,6 +116,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; /* 24/16 */
 letter-spacing: 0.02em;
+padding: 24px 0 ;
 }
 
 .header-menu-link:hover,
