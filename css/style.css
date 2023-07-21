@@ -283,6 +283,11 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 /*Portfolio buttons*/
 
+.portfolio{
+  padding-top: 96px; 
+  padding-bottom: 120px; 
+}
+
 .portfolio-navigation-btn{
   font-family: inherit;
   font-style: normal;
