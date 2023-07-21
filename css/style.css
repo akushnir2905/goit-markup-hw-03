@@ -47,7 +47,8 @@ h1, h2, h3, h4, h5, h6, p{
 
 .container{
   /*max-width: 1158px;*/
-  max-height: 600px;
+  min-height: 100vh;
+  /*padding-left: 156px;*/
 }
 
 /*Header*/
@@ -55,6 +56,8 @@ h1, h2, h3, h4, h5, h6, p{
 .header{
   padding-top: 26px;
   padding-bottom: 26px;
+  border-bottom: 1px solid var(--cornflower, #E7E9FC);
+background: var(--white, #FFF);
 }
 
 .header-logo{
@@ -118,8 +121,9 @@ letter-spacing: 0.02em;
 
 .introduction{
   background-color: var(--navyblue);
-  color: var(--white); 
   
+  color: var(--white); 
+  align-content: center;
 }
 
 .main-header{
@@ -128,7 +132,9 @@ line-height: 1.07; /* 60/56 */
 letter-spacing: 0.02em;
 text-align: center;
 padding-top: 188px;
-padding-bottom: 48px;v
+padding-bottom: 48px;
+height: 120px;
+width: 496px;
 }
 
 .introduction-button{
@@ -143,6 +149,7 @@ color: var(--white);
 cursor: pointer;
 margin-bottom: 188px;
 padding: 16px 32px;
+margin-left: 636px;
 }
 
 .introduction-button:hover,
@@ -258,7 +265,9 @@ padding: 12px 24px;
 .portfolio-navigation{
   display: flex;
   gap: 24px;
-
+ margin-bottom: 72px;
+ margin-top: 96px;
+ justify-content: center;
 }
 
 .portfolio-list{
@@ -268,21 +277,34 @@ padding: 12px 24px;
   flex-wrap: wrap;
   background-color: var(--white);
   align-content: center;
-}
-
-.portfolio-list li{
-  border: 1px solid var(--cornflower);
-  padding-bottom: 32px;
-  padding-left: 16px;
-  text-align: left;
+  justify-content: center;
+  margin-bottom: 120px;
 }
 
 .portfolio-list .link{
-
-  width: calc((100% - 48px / 3));
+ 
+  
+  width: 360px;
+  text-align: left;
+  
+ 
 }
 
- 
+.portfolio-list li{
+  flex-basis: 25%;
+}
+
+.caption{
+  border: 1px solid var(--cornflower);
+  padding-bottom: 32px;
+}
+
+ .portfolio-list p,
+ .portfolio-list h2{
+  padding-left: 16px;
+  
+  
+ }
 
 /*Footer*/
 
