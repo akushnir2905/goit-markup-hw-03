@@ -357,13 +357,10 @@ padding: 12px 24px;
 
 .footer{
   background-color: var(--navyblue);
-  
+  padding: 100px 0;
  
 }
 
-.footer .section{
-  padding: 100px 0;
-}
 
 .footer-logo {
   color: var(--iris);
