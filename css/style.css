@@ -350,6 +350,7 @@ padding: 12px 24px;
 .caption{
   border: 1px solid var(--cornflower);
   padding-bottom: 32px;
+  margin-bottom: 8px;
 }
 
  .portfolio-list p,
