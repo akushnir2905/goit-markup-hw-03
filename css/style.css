@@ -299,7 +299,8 @@ padding: 12px 24px;
 .portfolio-navigation-btn:hover,
 .portfolio-navigation-btn:focus{
   background: var(--ocean);
-  color: var(--white)
+  color: var(--white);
+  border: 1px solid transparent;
 }
 
 .portfolio-navigation{
